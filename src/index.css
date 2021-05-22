@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap');
+:root{
+  --burgundy: #512;
+  --dark-red:#813;
+  --tomato:#e44;
+  --dark-tomato: #c34;
+  --orange:#f80;
+  --deep-dark-blue: #022;
+  --deep-purple: #313;
+  --deep-dark: #012;
+  --dark: #333
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Big Shoulders Text', cursive;
+  background-image: url(./images/movie-search-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white; 
+  height: 30px;
+  padding-bottom:5px;
+  padding-top: 5px;
+  background-color:var(--burgundy) !important;
+}
+.navbar{
+  font-family: 'Big Shoulders Text', cursive;
+  background-color:var(--burgundy) !important;
+}
+.navbar-brand-link{
+  color:white !important;
+  text-decoration:none;
+  font-size: 25px;
+  font-weight:bolder
+}
+.navbar-brand-link:hover{
+  background: var(--tomato);
+}
+.nav-link{
+  color:white !important;
+  font-size: 25px;
+  font-weight:bolder;
+}
+.nav-link:hover{
+  background: var(--tomato);
+}
+.searchbar{
+  width: 100%;
+  margin: 2rem 0;
+}
+.searchbar-form input{
+  width: 100%;
+  padding: 10px 17px;
+  border: 1px solid var(--deep-dark);
+}
+.btn{
+  width: 100%;
+  padding: 10px 17px;
+  border: 1px solid var(--burgundy)!important;
+  margin-top: 20px;
+  color: white !important;
+}
+.btn:hover{
+  background: var(--tomato);
+}
+.movie-title{
+  color: aliceblue !important;
+}
+.movie-card:hover{
+  color:#34c29e;
+}
+.about-title-container{
+  justify-content: center;
+  color: aliceblue;
+
+}
+
+.about-container{
+  color: aliceblue;
+}
+
+.list-info{
+  list-style: none;
+}
+
