@@ -29,7 +29,7 @@ const SearchBar = () => {
     return (
     <>
         <div className="searchbar container text-center">
-            <form className="searchbar-form">
+            <form className="searchbar-form container">
                 <input 
                 type="text" 
                 placeholder="Search for Movie"

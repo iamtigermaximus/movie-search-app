@@ -3,7 +3,7 @@ import SearchBar from './SearchBar'
 
 const HomePage = () => {
     return (
-        <div className="mt-4">
+        <div className="mt-4 container">
             <SearchBar/>
         </div>
     )
